@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+    line-height: 60px;
+    width: 100%;
+    background-color: white;
+    color: black;
+  
+}
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+}
+nav ul{
+    float: right;
+    margin-right: 420px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.universal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.image{
+    height: 100%;
+    width: 50%;
+    background-image: url(image5.png);
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    float: right;
+    width: 35%;
+    height: 100%;
+    padding-top: 40px;
+}
+.text h1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.text p{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.bottom{
+    width: 100%;
+    background-color: #D9D9D9;
+    height: 60px;
+    align-content: center;
+}
+.bottom p{
+    width: fit-content;
+    height: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.icons{
+    float: right;
+    margin-right: 10px;
+    height: 100%;
+    width: fit-content;
+    margin-bottom: 5px;
+    margin-top: 20px;
+   
+}
+.tweet{
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 40px;
+    margin-right: 15px;
+    background-image: url(Group.png);
+    background-position: center;
+    background-size: cover;
+}
+.whats{
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 40px;
+    margin-right: 15px;
+    background-image: url(Group2.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.insta{
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 40px;
+    margin-right: 15px;
+    padding-top: -20px;
+    background-image: url(Group1.png);
+    background-position: center;
+    background-size: cover;
+}
+.feedback{
+    width: 100%;
+    height: fit-content;
+}
+.feedback p{
+    font-size: 15px;
+
+}
+.box{
+    height: 30vh;
+    width: 50vh;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin-left: 150px;
+}
+.submit{
+    width: 20vh;
+    height: 40px;
+    border-style: none;
+    border-radius: 7vh;
+    float: right;
+    margin-top: 50px;
+    background-color: #D9D9D;
+}
